@@ -1,3 +1,4 @@
 result = input("What's your age?")
-print(type(result))
-print(result + 22)
+age_as_number = int(result)
+print(type(age_as_number))
+print(age_as_number + 22)
